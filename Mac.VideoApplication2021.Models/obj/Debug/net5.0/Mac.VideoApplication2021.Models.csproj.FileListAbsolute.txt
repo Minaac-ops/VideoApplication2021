@@ -1,0 +1,12 @@
+C:\Users\Bruger\Work\CrashCourse21\VideoApplication2021\Mac.VideoApplication2021.Models\bin\Debug\net5.0\Mac.VideoApplication2021.Models.deps.json
+C:\Users\Bruger\Work\CrashCourse21\VideoApplication2021\Mac.VideoApplication2021.Models\bin\Debug\net5.0\Mac.VideoApplication2021.Models.dll
+C:\Users\Bruger\Work\CrashCourse21\VideoApplication2021\Mac.VideoApplication2021.Models\bin\Debug\net5.0\ref\Mac.VideoApplication2021.Models.dll
+C:\Users\Bruger\Work\CrashCourse21\VideoApplication2021\Mac.VideoApplication2021.Models\bin\Debug\net5.0\Mac.VideoApplication2021.Models.pdb
+C:\Users\Bruger\Work\CrashCourse21\VideoApplication2021\Mac.VideoApplication2021.Models\obj\Debug\net5.0\Mac.VideoApplication2021.Models.csproj.AssemblyReference.cache
+C:\Users\Bruger\Work\CrashCourse21\VideoApplication2021\Mac.VideoApplication2021.Models\obj\Debug\net5.0\Mac.VideoApplication2021.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Work\CrashCourse21\VideoApplication2021\Mac.VideoApplication2021.Models\obj\Debug\net5.0\Mac.VideoApplication2021.Models.AssemblyInfoInputs.cache
+C:\Users\Bruger\Work\CrashCourse21\VideoApplication2021\Mac.VideoApplication2021.Models\obj\Debug\net5.0\Mac.VideoApplication2021.Models.AssemblyInfo.cs
+C:\Users\Bruger\Work\CrashCourse21\VideoApplication2021\Mac.VideoApplication2021.Models\obj\Debug\net5.0\Mac.VideoApplication2021.Models.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Work\CrashCourse21\VideoApplication2021\Mac.VideoApplication2021.Models\obj\Debug\net5.0\Mac.VideoApplication2021.Models.dll
+C:\Users\Bruger\Work\CrashCourse21\VideoApplication2021\Mac.VideoApplication2021.Models\obj\Debug\net5.0\ref\Mac.VideoApplication2021.Models.dll
+C:\Users\Bruger\Work\CrashCourse21\VideoApplication2021\Mac.VideoApplication2021.Models\obj\Debug\net5.0\Mac.VideoApplication2021.Models.pdb
