@@ -12,6 +12,7 @@ namespace Mac.VideoApplication2021.UI
         public static readonly string ShowAllVideosMenuText = "Select 2 to see all videos";
         public static readonly string UpdateVideoMenuText = "Select 3 to update a video";
         public static readonly string DeleteVideoMenuText = "Select 4 to delete a video";
+        public static readonly string SearchVideoMenuText = "Select 5 to search a video";
         
         public static readonly string exitMainMenu = "select 0 to exit";
         

@@ -17,19 +17,43 @@ namespace Mac.VideoApplication2021.UI
             int choice;
             while ((choice = GetMainMenuSelection()) != 0)
             {
-                if (choice == 1)
+                switch (choice)
                 {
-                    CreateVideo();
-                }
-                else if (choice == 5)
-                {
-                    SearchVideo();
-                }
-                else if (choice == -1)
-                {
-                    PleaseTryAgain();
+                    case 1:
+                        CreateVideo();
+                        break;
+                    case 2:
+                        ListAllVideos();
+                        break;
+                    case 3:
+                        UpdateVideo();
+                        break;
+                    case 4:
+                        DeleteVideo();
+                        break;
+                    case 5:
+                        SearchVideo();
+                        break;
+                    case -1:
+                        PleaseTryAgain();
+                        break;
                 }
             }
+        }
+
+        private void UpdateVideo()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void DeleteVideo()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void ListAllVideos()
+        {
+            throw new NotImplementedException();
         }
 
         public void Clear()
@@ -100,6 +124,7 @@ namespace Mac.VideoApplication2021.UI
                 StringConstants.ShowAllVideosMenuText,
                 StringConstants.UpdateVideoMenuText,
                 StringConstants.DeleteVideoMenuText,
+                StringConstants.SearchVideoMenuText,
                 StringConstants.exitMainMenu,
             };
 
