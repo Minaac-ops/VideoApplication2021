@@ -1,11 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Reflection.Metadata;
 using System.Runtime.InteropServices;
+using Mac.VideoApplication2021.Models;
 
 namespace Mac.VideoApplication2021.UI
 {
     internal class Menu
     {
+        List<Video> videos = new List<Video>();
+        private static int id = 1;
         public void Start()
         {
             ShowWelcomeGreeting();
@@ -53,7 +57,26 @@ namespace Mac.VideoApplication2021.UI
 
         private void ListAllVideos()
         {
-            throw new NotImplementedException();
+            videos.Add(new Video()
+            {
+                Id = id++,
+                Title = "Funny Video",
+                StoryLine = "This is a funny video",
+                ReleaseDate = new DateTime(2008, 1, 3)
+            });
+            videos.Add(new Video()
+            {
+                Id = id++,
+                Title = "Action Video",
+                StoryLine = "This is a action video",
+                ReleaseDate = new DateTime(2008, 5, 8)
+            });
+
+            PrintNewLine();
+            foreach (var video in videos)
+            {
+                Print($"Id: {video.Id}, title: {video.Title}, Storyline: {video.StoryLine}, Release date: {video.ReleaseDate}");
+            }
         }
 
         public void Clear()
