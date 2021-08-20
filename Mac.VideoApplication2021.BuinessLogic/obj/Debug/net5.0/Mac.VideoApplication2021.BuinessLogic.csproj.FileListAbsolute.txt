@@ -1,0 +1,15 @@
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\bin\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.deps.json
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\bin\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\bin\Debug\net5.0\ref\Mac.VideoApplication2021.BuinessLogic.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\bin\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.pdb
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\bin\Debug\net5.0\Mac.VideoApplication2021.Models.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\bin\Debug\net5.0\Mac.VideoApplication2021.Models.pdb
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\obj\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.csproj.AssemblyReference.cache
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\obj\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\obj\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.AssemblyInfoInputs.cache
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\obj\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.AssemblyInfo.cs
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\obj\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.csproj.CoreCompileInputs.cache
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\obj\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.csproj.CopyComplete
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\obj\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\obj\Debug\net5.0\ref\Mac.VideoApplication2021.BuinessLogic.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.BuinessLogic\obj\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.pdb

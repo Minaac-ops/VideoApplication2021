@@ -36,3 +36,5 @@ C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\obj\Debug\net5.0
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\obj\Debug\net5.0\ref\Mac.VideoApplication2021.UI.dll
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\obj\Debug\net5.0\Mac.VideoApplication2021.UI.pdb
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\obj\Debug\net5.0\Mac.VideoApplication2021.UI.genruntimeconfig.cache
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.pdb

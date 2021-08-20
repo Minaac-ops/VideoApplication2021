@@ -23,6 +23,9 @@ namespace Mac.VideoApplication2021.UI
         public static readonly string VideoName = "Type video name (with more than two characters and less than 40)";
         public static readonly  string videoStoryLine = "Type video storyline";
         
+        //  CHOOSE VIDEO ID TO UPDATE
+        public static readonly string VideoToUpdate = "Choose the Id of the video you want to update";
+        
         public static readonly string WhatToSearchFor = "Please decide what to search for (1 - id, 2 - title, 0 - to go back)";
         
         public static readonly string PleaseSelectCorrectSearchOptions = "Please select between 0-2";

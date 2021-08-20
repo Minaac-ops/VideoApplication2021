@@ -1,12 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Mac.VideoApplication2021.BuinessLogic\Mac.VideoApplication2021.BuinessLogic.csproj" />
       <ProjectReference Include="..\Mac.VideoApplication2021.Models\Mac.VideoApplication2021.Models.csproj" />
     </ItemGroup>
 

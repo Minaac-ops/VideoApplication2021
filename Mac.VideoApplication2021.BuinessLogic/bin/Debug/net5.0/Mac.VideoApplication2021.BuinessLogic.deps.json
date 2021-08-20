@@ -6,15 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Mac.VideoApplication2021.UI/1.0.0": {
-        "dependencies": {
-          "Mac.VideoApplication2021.BuinessLogic": "1.0.0",
-          "Mac.VideoApplication2021.Models": "1.0.0"
-        },
-        "runtime": {
-          "Mac.VideoApplication2021.UI.dll": {}
-        }
-      },
       "Mac.VideoApplication2021.BuinessLogic/1.0.0": {
         "dependencies": {
           "Mac.VideoApplication2021.Models": "1.0.0"
@@ -31,11 +22,6 @@
     }
   },
   "libraries": {
-    "Mac.VideoApplication2021.UI/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Mac.VideoApplication2021.BuinessLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
