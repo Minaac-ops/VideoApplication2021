@@ -21,7 +21,10 @@ namespace Mac.VideoApplication2021.Domain.Services
 
         public List<Video> ReadAll()
         {
-            return _repo.FindAll().ToList();
+            var list = _repo.FindAll();
+            var orderedEnumerable = list.OrderBy(video => video.ReleaseDate);
+
+            return orderedEnumerable.ToList();
         }
 
         public Video ReadById(int id)

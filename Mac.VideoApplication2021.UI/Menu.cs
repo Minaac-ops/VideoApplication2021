@@ -84,7 +84,7 @@ namespace Mac.VideoApplication2021.UI
         {
             foreach (var video in _service.ReadAll())
             {
-                Print($"Id: {video.Id}, title: {video.Title}, story line: {video.StoryLine}, release date: {video.StoryLine}");
+                Print($"Id: {video.Id}, title: {video.Title}, story line: {video.StoryLine}, release date: {video.ReleaseDate}");
             }
         }
 

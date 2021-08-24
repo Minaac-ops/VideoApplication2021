@@ -9,12 +9,15 @@ namespace Mac.VideoApplication2021.Domain.IRepositories
         private static int _id = 1;
         
         Video Add(Video video);
+        
         IEnumerable<Video> FindAll();
-
+        
         Video ReadById(int id);
 
         Video UpdateVideo(Video videoUpdate);
 
         void DeleteVideo(int videoDelete);
+        
+        
     }
 }
