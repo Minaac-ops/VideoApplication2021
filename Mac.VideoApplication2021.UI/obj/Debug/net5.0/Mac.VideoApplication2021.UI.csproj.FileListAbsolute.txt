@@ -24,8 +24,6 @@ C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.UI.dll
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\ref\Mac.VideoApplication2021.UI.dll
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.UI.pdb
-C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.Models.dll
-C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.Models.pdb
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\obj\Debug\net5.0\Mac.VideoApplication2021.UI.csproj.AssemblyReference.cache
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\obj\Debug\net5.0\Mac.VideoApplication2021.UI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\obj\Debug\net5.0\Mac.VideoApplication2021.UI.AssemblyInfoInputs.cache
@@ -36,5 +34,9 @@ C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\obj\Debug\net5.0
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\obj\Debug\net5.0\ref\Mac.VideoApplication2021.UI.dll
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\obj\Debug\net5.0\Mac.VideoApplication2021.UI.pdb
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\obj\Debug\net5.0\Mac.VideoApplication2021.UI.genruntimeconfig.cache
-C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.dll
-C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.BuinessLogic.pdb
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.Core.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.Domain.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.pdb
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.Domain.pdb
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.Core.pdb

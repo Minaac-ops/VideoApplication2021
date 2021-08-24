@@ -1,0 +1,12 @@
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.Core\bin\Debug\net5.0\Mac.VideoApplication2021.Core.deps.json
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.Core\bin\Debug\net5.0\Mac.VideoApplication2021.Core.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.Core\bin\Debug\net5.0\ref\Mac.VideoApplication2021.Core.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.Core\bin\Debug\net5.0\Mac.VideoApplication2021.Core.pdb
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.Core\obj\Debug\net5.0\Mac.VideoApplication2021.Core.csproj.AssemblyReference.cache
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.Core\obj\Debug\net5.0\Mac.VideoApplication2021.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.Core\obj\Debug\net5.0\Mac.VideoApplication2021.Core.AssemblyInfoInputs.cache
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.Core\obj\Debug\net5.0\Mac.VideoApplication2021.Core.AssemblyInfo.cs
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.Core\obj\Debug\net5.0\Mac.VideoApplication2021.Core.csproj.CoreCompileInputs.cache
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.Core\obj\Debug\net5.0\Mac.VideoApplication2021.Core.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.Core\obj\Debug\net5.0\ref\Mac.VideoApplication2021.Core.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.Core\obj\Debug\net5.0\Mac.VideoApplication2021.Core.pdb

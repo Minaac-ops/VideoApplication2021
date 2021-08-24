@@ -2,17 +2,40 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Mac.VideoApplication2021.BuinessLogic/1.0.0": {
+      "ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Mac.VideoApplication2021.Models": "1.0.0"
+          "Mac.VideoApplication2021.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Mac.VideoApplication2021.BuinessLogic.dll": {}
+          "bin/placeholder/ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Mac.VideoApplication2021.BuinessLogic.dll": {}
+          "bin/placeholder/ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.dll": {}
+        }
+      },
+      "Mac.VideoApplication2021.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Mac.VideoApplication2021.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mac.VideoApplication2021.Core.dll": {}
+        }
+      },
+      "Mac.VideoApplication2021.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Mac.VideoApplication2021.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mac.VideoApplication2021.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mac.VideoApplication2021.Domain.dll": {}
         }
       },
       "Mac.VideoApplication2021.Models/1.0.0": {
@@ -24,25 +47,56 @@
         "runtime": {
           "bin/placeholder/Mac.VideoApplication2021.Models.dll": {}
         }
+      },
+      "Mac.VideoApplication2021.SQL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Mac.VideoApplication2021.Domain": "1.0.0",
+          "Mac.VideoApplication2021.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mac.VideoApplication2021.SQL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mac.VideoApplication2021.SQL.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "Mac.VideoApplication2021.BuinessLogic/1.0.0": {
+    "ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces/1.0.0": {
       "type": "project",
-      "path": "../Mac.VideoApplication2021.BuinessLogic/Mac.VideoApplication2021.BuinessLogic.csproj",
-      "msbuildProject": "../Mac.VideoApplication2021.BuinessLogic/Mac.VideoApplication2021.BuinessLogic.csproj"
+      "path": "../ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces/ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.csproj",
+      "msbuildProject": "../ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces/ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.csproj"
+    },
+    "Mac.VideoApplication2021.Core/1.0.0": {
+      "type": "project",
+      "path": "../Mac.VideoApplication2021.Core/Mac.VideoApplication2021.Core.csproj",
+      "msbuildProject": "../Mac.VideoApplication2021.Core/Mac.VideoApplication2021.Core.csproj"
+    },
+    "Mac.VideoApplication2021.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Core/Mac.VideoApplication2021.Domain/Mac.VideoApplication2021.Domain.csproj",
+      "msbuildProject": "../Core/Mac.VideoApplication2021.Domain/Mac.VideoApplication2021.Domain.csproj"
     },
     "Mac.VideoApplication2021.Models/1.0.0": {
       "type": "project",
       "path": "../Mac.VideoApplication2021.Models/Mac.VideoApplication2021.Models.csproj",
       "msbuildProject": "../Mac.VideoApplication2021.Models/Mac.VideoApplication2021.Models.csproj"
+    },
+    "Mac.VideoApplication2021.SQL/1.0.0": {
+      "type": "project",
+      "path": "../Mac.VideoApplication2021.SQL/Mac.VideoApplication2021.SQL.csproj",
+      "msbuildProject": "../Mac.VideoApplication2021.SQL/Mac.VideoApplication2021.SQL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Mac.VideoApplication2021.BuinessLogic >= 1.0.0",
-      "Mac.VideoApplication2021.Models >= 1.0.0"
+      "ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces >= 1.0.0",
+      "Mac.VideoApplication2021.Core >= 1.0.0",
+      "Mac.VideoApplication2021.Domain >= 1.0.0",
+      "Mac.VideoApplication2021.SQL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -77,11 +131,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.BuinessLogic\\Mac.VideoApplication2021.BuinessLogic.csproj": {
-              "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.BuinessLogic\\Mac.VideoApplication2021.BuinessLogic.csproj"
+            "C:\\Work\\sdp.21\\VideoApplication2021\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.csproj": {
+              "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.csproj"
             },
-            "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Models\\Mac.VideoApplication2021.Models.csproj": {
-              "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Models\\Mac.VideoApplication2021.Models.csproj"
+            "C:\\Work\\sdp.21\\VideoApplication2021\\Core\\Mac.VideoApplication2021.Domain\\Mac.VideoApplication2021.Domain.csproj": {
+              "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Core\\Mac.VideoApplication2021.Domain\\Mac.VideoApplication2021.Domain.csproj"
+            },
+            "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Core\\Mac.VideoApplication2021.Core.csproj": {
+              "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Core\\Mac.VideoApplication2021.Core.csproj"
+            },
+            "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.SQL\\Mac.VideoApplication2021.SQL.csproj": {
+              "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.SQL\\Mac.VideoApplication2021.SQL.csproj"
             }
           }
         }

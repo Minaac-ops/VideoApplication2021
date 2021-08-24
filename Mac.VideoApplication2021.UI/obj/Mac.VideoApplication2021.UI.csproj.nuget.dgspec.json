@@ -4,14 +4,14 @@
     "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.UI\\Mac.VideoApplication2021.UI.csproj": {}
   },
   "projects": {
-    "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.BuinessLogic\\Mac.VideoApplication2021.BuinessLogic.csproj": {
+    "C:\\Work\\sdp.21\\VideoApplication2021\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.BuinessLogic\\Mac.VideoApplication2021.BuinessLogic.csproj",
-        "projectName": "Mac.VideoApplication2021.BuinessLogic",
-        "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.BuinessLogic\\Mac.VideoApplication2021.BuinessLogic.csproj",
+        "projectUniqueName": "C:\\Work\\sdp.21\\VideoApplication2021\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.csproj",
+        "projectName": "ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces",
+        "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.csproj",
         "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.BuinessLogic\\obj\\",
+        "outputPath": "C:\\Work\\sdp.21\\VideoApplication2021\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,10 +32,130 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Models\\Mac.VideoApplication2021.Models.csproj": {
-                "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Models\\Mac.VideoApplication2021.Models.csproj"
+              "C:\\Work\\sdp.21\\VideoApplication2021\\Core\\Mac.VideoApplication2021.Domain\\Mac.VideoApplication2021.Domain.csproj": {
+                "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Core\\Mac.VideoApplication2021.Domain\\Mac.VideoApplication2021.Domain.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\sdp.21\\VideoApplication2021\\Core\\Mac.VideoApplication2021.Domain\\Mac.VideoApplication2021.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\sdp.21\\VideoApplication2021\\Core\\Mac.VideoApplication2021.Domain\\Mac.VideoApplication2021.Domain.csproj",
+        "projectName": "Mac.VideoApplication2021.Domain",
+        "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Core\\Mac.VideoApplication2021.Domain\\Mac.VideoApplication2021.Domain.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Core\\Mac.VideoApplication2021.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Core\\Mac.VideoApplication2021.Core.csproj": {
+                "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Core\\Mac.VideoApplication2021.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Core\\Mac.VideoApplication2021.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Core\\Mac.VideoApplication2021.Core.csproj",
+        "projectName": "Mac.VideoApplication2021.Core",
+        "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Core\\Mac.VideoApplication2021.Core.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -124,6 +244,71 @@
         }
       }
     },
+    "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.SQL\\Mac.VideoApplication2021.SQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.SQL\\Mac.VideoApplication2021.SQL.csproj",
+        "projectName": "Mac.VideoApplication2021.SQL",
+        "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.SQL\\Mac.VideoApplication2021.SQL.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.SQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Work\\sdp.21\\VideoApplication2021\\Core\\Mac.VideoApplication2021.Domain\\Mac.VideoApplication2021.Domain.csproj": {
+                "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Core\\Mac.VideoApplication2021.Domain\\Mac.VideoApplication2021.Domain.csproj"
+              },
+              "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Models\\Mac.VideoApplication2021.Models.csproj": {
+                "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Models\\Mac.VideoApplication2021.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.UI\\Mac.VideoApplication2021.UI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -152,11 +337,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.BuinessLogic\\Mac.VideoApplication2021.BuinessLogic.csproj": {
-                "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.BuinessLogic\\Mac.VideoApplication2021.BuinessLogic.csproj"
+              "C:\\Work\\sdp.21\\VideoApplication2021\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.csproj": {
+                "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces\\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.csproj"
               },
-              "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Models\\Mac.VideoApplication2021.Models.csproj": {
-                "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Models\\Mac.VideoApplication2021.Models.csproj"
+              "C:\\Work\\sdp.21\\VideoApplication2021\\Core\\Mac.VideoApplication2021.Domain\\Mac.VideoApplication2021.Domain.csproj": {
+                "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Core\\Mac.VideoApplication2021.Domain\\Mac.VideoApplication2021.Domain.csproj"
+              },
+              "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Core\\Mac.VideoApplication2021.Core.csproj": {
+                "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.Core\\Mac.VideoApplication2021.Core.csproj"
+              },
+              "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.SQL\\Mac.VideoApplication2021.SQL.csproj": {
+                "projectPath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.SQL\\Mac.VideoApplication2021.SQL.csproj"
               }
             }
           }

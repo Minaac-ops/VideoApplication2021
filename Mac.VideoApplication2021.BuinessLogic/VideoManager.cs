@@ -8,8 +8,7 @@ namespace Mac.VideoApplication2021.BuinessLogic
     public class VideoManager
     {
         private static List<Video> _fakeDbVideos = new List<Video>();
-        private static int _id = 1;
-
+        private static int _id = 1; 
 
         public Video Create(Video video)
         {
@@ -23,17 +22,10 @@ namespace Mac.VideoApplication2021.BuinessLogic
             return _fakeDbVideos;
         }
 
-        public Video Update(Video video)
+        /*public void Update(Video chosenVideo, string newTitle, string newStoryLine)
         {
-            string title = video.Title;
-            string storyline = video.StoryLine;
-            video = new Video
-            {
-                Title = title,
-                StoryLine = storyline,
-            };
-            return video;
-        }
+            var video = this.Cre
+        }*/
 
         public void DeleteVideo()
         {

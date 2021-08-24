@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Reflection.Metadata;
 using System.Runtime.InteropServices;
-using Mac.VideoApplication2021.BuinessLogic;
-using Mac.VideoApplication2021.Models;
+using Mac.VideoApplication2021.Core.IServices;
+using Mac.VideoApplication2021.Core.Models;
+using Mac.VideoApplication2021.Domain.Services;
 using Microsoft.VisualBasic;
 
 namespace Mac.VideoApplication2021.UI
@@ -11,11 +12,11 @@ namespace Mac.VideoApplication2021.UI
     internal class Menu
     {
 
-        private readonly VideoManager _videoManager;
+        private IVideoService _service;
 
-        public Menu()
+        public Menu(IVideoService service)
         {
-            _videoManager = new VideoManager();
+            _service = service;
         }
         
         List<Video> videos = new List<Video>();
@@ -44,11 +45,11 @@ namespace Mac.VideoApplication2021.UI
                         UpdateVideo();
                         break;
                     case 4:
-                        _videoManager.DeleteVideo();
+                        DeleteVideo();
                         break;
-                    case 5:
-                        SearchVideo();
-                        break;
+                    //case 5:
+                        //SearchVideo();
+                        //break;
                     case -1:
                         PleaseTryAgain();
                         break;
@@ -56,28 +57,41 @@ namespace Mac.VideoApplication2021.UI
             }
         }
 
+        private void DeleteVideo(int idDelete)
+        {
+            Print("Type the id of the video you want to delete: ");
+            idDelete = int.Parse(Console.ReadLine());
+            
+        }
+
         private void CreateVideo()
         {
             PrintNewLine();
             Print(StringConstants.CreateVideoGreeting);
+            
             Print(StringConstants.VideoName);
             var videoName = Console.ReadLine();
+            
             Print(StringConstants.videoStoryLine);
             var videoStoryLine = Console.ReadLine();
+            
+            Print("Type the release date");
+            DateTime releaseDate = DateTime.Parse(Console.ReadLine());
             //call service to create video
-            var video = new Video
+            var video = new Video()
             {
                 Title = videoName,
-                StoryLine = videoStoryLine
+                StoryLine = videoStoryLine,
+                ReleaseDate = releaseDate
             };
-            video = _videoManager.Create(video);
-            Print($"Video with following properties created. Id: {video.Id.Value} Name: {video.Title}. Storyline: {video.StoryLine}");
+            video = _service.Create(video);
+            Print($"Video with following properties created. Id: {video.Id} Name: {video.Title}. Storyline: {video.StoryLine}, Release date = {releaseDate}");
             PrintNewLine();
         }
 
         private void ReadAllVideos()
         {
-            foreach (var video in _videoManager.Read())
+            foreach (var video in _service.ReadAll())
             {
                 Print($"Id: {video.Id}, title: {video.Title}, story line: {video.StoryLine}, release date: {video.StoryLine}");
             }
@@ -85,19 +99,22 @@ namespace Mac.VideoApplication2021.UI
 
         private void UpdateVideo()
         {
-            var video = FindVideoById();
+            Print("Search for id");
+            int idSearch = int.Parse(Console.ReadLine());
+            Video videoToUpdate = _service.ReadById(idSearch);
+
             Print("new title: ");
-            video.Title = Console.ReadLine();
+            string newTitle = Console.ReadLine();
             
             Print("New StoryLine ");
-            video.StoryLine = Console.ReadLine();
-            
-            var updatedVideo = _videoManager.Update(video);
-            Print($"Video with id {updatedVideo.Id}, new name: {updatedVideo.Title}, new story line: {updatedVideo.StoryLine}");
+            string newStoryLine = Console.ReadLine();
+
+            _service.Update(videoToUpdate);
+            Print($"Video with id {videoToUpdate.Id}, new name: {videoToUpdate.Title}, new storyline: {newStoryLine}");
         }
 
-        private void SearchVideo()
-        {
+        /*private void SearchVideo()
+        { 
             Print(StringConstants.WhatToSearchFor);
 
             int choice;
@@ -115,27 +132,7 @@ namespace Mac.VideoApplication2021.UI
                     Print(StringConstants.PleaseSelectCorrectSearchOptions);
                 }
             }
-        }
-
-        private Video FindVideoById()
-        {
-            Print("Type in id to search for");
-            int id;
-            while (!int.TryParse(Console.ReadLine(), out id))
-            {
-                Print("Try again");
-            }
-
-            foreach (var video in videos)
-            {
-                if (video.Id == id)
-                {
-                    return video;
-                }
-            }return null;
-        }
-
-        
+        }*/
 
         private void PleaseTryAgain()
         {
@@ -191,16 +188,14 @@ namespace Mac.VideoApplication2021.UI
             Console.WriteLine(StringConstants.welcomeGreeting);
         }
 
-        private int GetVideoSearch()
+        private int GetVideoSearch(string selectionString)
         {
-            var selectionString = Console.ReadLine();
             int selection;
             if (int.TryParse(selectionString, out selection))
             {
                 return selection;
             }
-
-            return -1;
+            else return -1;
         }
     }
 }

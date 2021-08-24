@@ -6,8 +6,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Mac.VideoApplication2021.BuinessLogic\Mac.VideoApplication2021.BuinessLogic.csproj" />
-      <ProjectReference Include="..\Mac.VideoApplication2021.Models\Mac.VideoApplication2021.Models.csproj" />
+      <ProjectReference Include="..\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.csproj" />
+      <ProjectReference Include="..\Core\Mac.VideoApplication2021.Domain\Mac.VideoApplication2021.Domain.csproj" />
+      <ProjectReference Include="..\Mac.VideoApplication2021.Core\Mac.VideoApplication2021.Core.csproj" />
+      <ProjectReference Include="..\Mac.VideoApplication2021.SQL\Mac.VideoApplication2021.SQL.csproj" />
     </ItemGroup>
 
 </Project>

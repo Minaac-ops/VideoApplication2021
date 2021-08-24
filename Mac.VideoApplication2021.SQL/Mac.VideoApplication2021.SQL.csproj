@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Core\Mac.VideoApplication2021.Domain\Mac.VideoApplication2021.Domain.csproj" />
+      <ProjectReference Include="..\Mac.VideoApplication2021.Models\Mac.VideoApplication2021.Models.csproj" />
+    </ItemGroup>
+
+</Project>
