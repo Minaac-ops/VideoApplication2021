@@ -11,7 +11,6 @@ namespace Mac.VideoApplication2021.UI
 {
     internal class Menu
     {
-
         private IVideoService _service;
 
         public Menu(IVideoService service)
@@ -19,7 +18,6 @@ namespace Mac.VideoApplication2021.UI
             _service = service;
         }
         
-        List<Video> videos = new List<Video>();
         private static int id = 1;
         
         public void Start()
@@ -56,14 +54,7 @@ namespace Mac.VideoApplication2021.UI
                 }
             }
         }
-
-        private void DeleteVideo(int idDelete)
-        {
-            Print("Type the id of the video you want to delete: ");
-            idDelete = int.Parse(Console.ReadLine());
-            
-        }
-
+        
         private void CreateVideo()
         {
             PrintNewLine();
@@ -88,7 +79,7 @@ namespace Mac.VideoApplication2021.UI
             Print($"Video with following properties created. Id: {video.Id} Name: {video.Title}. Storyline: {video.StoryLine}, Release date = {releaseDate}");
             PrintNewLine();
         }
-
+        
         private void ReadAllVideos()
         {
             foreach (var video in _service.ReadAll())
@@ -109,30 +100,26 @@ namespace Mac.VideoApplication2021.UI
             Print("New StoryLine ");
             string newStoryLine = Console.ReadLine();
 
-            _service.Update(videoToUpdate);
+            _service.Update(new Video()
+            {
+                Title = newTitle,
+                StoryLine = newStoryLine,
+                ReleaseDate = videoToUpdate.ReleaseDate,
+                Id = videoToUpdate.Id
+            });
             Print($"Video with id {videoToUpdate.Id}, new name: {videoToUpdate.Title}, new storyline: {newStoryLine}");
         }
-
-        /*private void SearchVideo()
-        { 
-            Print(StringConstants.WhatToSearchFor);
-
-            int choice;
-
-            while ((choice = GetVideoSearch()) != 0)
+        
+        private void DeleteVideo()
+        {
+            Print("Type the id of the video you want to delete: ");
+            var idDelete = int.Parse(Console.ReadLine());
+            if (idDelete != null)
             {
-                if (choice == 1)
-                {
-                    Print("Type id to search for");
-                    var idToSearchFor = Console.ReadLine();
-                    Print($"You searched for id {idToSearchFor}");
-                }
-                else if (choice == -1)
-                {
-                    Print(StringConstants.PleaseSelectCorrectSearchOptions);
-                }
+                _service.Delete(idDelete);
+                Print($"Video with id {idDelete} was succesfully deleted");
             }
-        }*/
+        }
 
         private void PleaseTryAgain()
         {
@@ -148,7 +135,6 @@ namespace Mac.VideoApplication2021.UI
             {
                 return selection;
             }
-
             return -1;
         }
 
@@ -186,16 +172,6 @@ namespace Mac.VideoApplication2021.UI
         private void ShowWelcomeGreeting()
         {
             Console.WriteLine(StringConstants.welcomeGreeting);
-        }
-
-        private int GetVideoSearch(string selectionString)
-        {
-            int selection;
-            if (int.TryParse(selectionString, out selection))
-            {
-                return selection;
-            }
-            else return -1;
         }
     }
 }

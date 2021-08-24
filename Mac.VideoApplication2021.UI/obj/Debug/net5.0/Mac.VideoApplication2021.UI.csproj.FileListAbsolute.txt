@@ -40,3 +40,7 @@ C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.pdb
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.Domain.pdb
 C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.Core.pdb
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.Models.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.SQL.dll
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.SQL.pdb
+C:\Work\sdp.21\VideoApplication2021\Mac.VideoApplication2021.UI\bin\Debug\net5.0\Mac.VideoApplication2021.Models.pdb

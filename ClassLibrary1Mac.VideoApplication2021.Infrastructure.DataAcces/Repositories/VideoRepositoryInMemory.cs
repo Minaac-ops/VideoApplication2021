@@ -18,7 +18,7 @@ namespace ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.Reposit
             return video;
         }
 
-        public List<Video> FindAll()
+        public IEnumerable<Video> FindAll()
         {
             return _videosTable;
         }

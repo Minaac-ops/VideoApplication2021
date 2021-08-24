@@ -10,7 +10,8 @@
         "dependencies": {
           "ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces": "1.0.0",
           "Mac.VideoApplication2021.Core": "1.0.0",
-          "Mac.VideoApplication2021.Domain": "1.0.0"
+          "Mac.VideoApplication2021.Domain": "1.0.0",
+          "Mac.VideoApplication2021.SQL": "1.0.0"
         },
         "runtime": {
           "Mac.VideoApplication2021.UI.dll": {}
@@ -36,6 +37,20 @@
         "runtime": {
           "Mac.VideoApplication2021.Domain.dll": {}
         }
+      },
+      "Mac.VideoApplication2021.Models/1.0.0": {
+        "runtime": {
+          "Mac.VideoApplication2021.Models.dll": {}
+        }
+      },
+      "Mac.VideoApplication2021.SQL/1.0.0": {
+        "dependencies": {
+          "Mac.VideoApplication2021.Domain": "1.0.0",
+          "Mac.VideoApplication2021.Models": "1.0.0"
+        },
+        "runtime": {
+          "Mac.VideoApplication2021.SQL.dll": {}
+        }
       }
     }
   },
@@ -56,6 +71,16 @@
       "sha512": ""
     },
     "Mac.VideoApplication2021.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mac.VideoApplication2021.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mac.VideoApplication2021.SQL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

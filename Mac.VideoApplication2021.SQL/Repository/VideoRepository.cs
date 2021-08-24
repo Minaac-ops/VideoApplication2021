@@ -27,7 +27,7 @@ namespace Mac.VideoApplication2021.SQL.Repository
             return _videoConverter.Convert(videoEntity);
         }
 
-        public List<Video> FindAll()
+        public IEnumerable<Video> FindAll()
         {
             var listOfVideos = new List<Video>();
             foreach (var videoEntity in _videoTable)

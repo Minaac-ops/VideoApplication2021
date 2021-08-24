@@ -13,8 +13,8 @@ namespace Mac.VideoApplication2021.UI
         static void Main(string[] args)
         {
             //cheapish DI (Dependency injection)
-            //IVideoRepository repo = new VideoRepositoryInMemory();
-            IVideoRepository repo = new VideoRepository();
+            IVideoRepository repo = new VideoRepositoryInMemory();
+            //IVideoRepository repo = new VideoRepository();
             IVideoService service = new VideoService(repo);
             
             var menu = new Menu(service);

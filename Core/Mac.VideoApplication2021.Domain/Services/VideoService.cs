@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Mac.VideoApplication2021.Core.IServices;
 using Mac.VideoApplication2021.Core.Models;
 using Mac.VideoApplication2021.Domain.IRepositories;
@@ -20,7 +21,7 @@ namespace Mac.VideoApplication2021.Domain.Services
 
         public List<Video> ReadAll()
         {
-            return _repo.FindAll();
+            return _repo.FindAll().ToList();
         }
 
         public Video ReadById(int id)
