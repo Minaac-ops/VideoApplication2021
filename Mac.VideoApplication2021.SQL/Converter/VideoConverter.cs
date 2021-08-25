@@ -25,7 +25,8 @@ namespace Mac.VideoApplication2021.SQL.Converter
                 ReleaseDate = video.ReleaseDate,
                 StoryLine = video.StoryLine,
                 Title = video.Title,
-                GenreId = video.Genre.Id
+                //GenreId = video.Genre != null ? video.Genre.Id : 0 //one line if statement
+                GenreId = video.Genre?.Id ?? 0 // one line if statement shorter
             };
         }
     }
