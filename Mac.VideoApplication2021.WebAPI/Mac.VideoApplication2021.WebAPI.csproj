@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces\ClassLibrary1Mac.VideoApplication2021.Infrastructure.DataAcces.csproj" />
+      <ProjectReference Include="..\Core\Mac.VideoApplication2021.Domain\Mac.VideoApplication2021.Domain.csproj" />
+      <ProjectReference Include="..\Mac.VideoApplication2021.Core\Mac.VideoApplication2021.Core.csproj" />
+    </ItemGroup>
+
+</Project>
