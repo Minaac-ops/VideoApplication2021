@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eAqYz/sBkaFNWNy9EKsKL9WjL53HJLe52LcBUZmcS3wYvmnJo6icilIpqgd/vb7jfZJTlajf6u7iTz6bpCUIzA==",
+  "dgSpecHash": "LD0N8ji/FlO0tAaWgxaNvEOvHX65QyyQwYIrXSaMPyZi09Jso+3j02gXtp7bavF38qJhP7LqmFT6PcwoA9hyuA==",
   "success": true,
-  "projectFilePath": "C:\\Work\\sdp.21\\VideoApplication2021\\Mac.VideoApplication2021.UI\\Mac.VideoApplication2021.UI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Work\\VideoApplication2021\\VideoApplication2021\\Mac.VideoApplication2021.UI\\Mac.VideoApplication2021.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\annec\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.8\\microsoft.netcore.app.host.win-x64.5.0.8.nupkg.sha512"
+  ],
   "logs": []
 }
